@@ -121,3 +121,4 @@ Received Import Request.
 Start importing Assets/Scenes/mapaUno.unity using Guid(678a3b8eb7db6db4991cce14aadd7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f8fd178c06dc6a035ddf63083101aa') in 0.016860 seconds 
   Import took 0.041131 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
