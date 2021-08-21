@@ -359,9 +359,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2245241880453687284, guid: 18f5f0a2a8263e148929d2ec29a9e677,
         type: 3}
+      propertyPath: seconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245241880453687284, guid: 18f5f0a2a8263e148929d2ec29a9e677,
+        type: 3}
       propertyPath: miimagen
       value: 
       objectReference: {fileID: 124302611}
+    - target: {fileID: 2245241880453687284, guid: 18f5f0a2a8263e148929d2ec29a9e677,
+        type: 3}
+      propertyPath: misescenas.Array.data[1]
+      value: config
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245241880453687284, guid: 18f5f0a2a8263e148929d2ec29a9e677,
+        type: 3}
+      propertyPath: misescenas.Array.data[2]
+      value: credit
+      objectReference: {fileID: 0}
     - target: {fileID: 2245241880453687285, guid: 18f5f0a2a8263e148929d2ec29a9e677,
         type: 3}
       propertyPath: m_RootOrder

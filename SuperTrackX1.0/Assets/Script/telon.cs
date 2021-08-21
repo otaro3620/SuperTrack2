@@ -8,26 +8,22 @@ public class telon : MonoBehaviour
 {
     public Image miimagen;
     public string[] misescenas;
+    public int seconds;
 
     // Start is called before the first frame update
     void Start()
     {
-        miimagen.CrossFadeAlpha(0, 1f, false);
+        miimagen.CrossFadeAlpha(0, 2.0f, false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void Telonar(int s)
     {
-        miimagen.CrossFadeAlpha(1, 0.5f, false);
+        miimagen.CrossFadeAlpha(1, 2.0f, false);
         StartCoroutine(Cambioescena(misescenas[s]));
     }
     IEnumerator Cambioescena(string escena)
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(seconds);
         SceneManager.LoadScene(escena);
     }
 }
