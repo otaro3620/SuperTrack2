@@ -5,74 +5,91 @@ using Cinemachine;
 
 public class PostCam : MonoBehaviour
 {
-    public Transform[] posCm;
     public GameObject[] InfoCar;
-    public GameObject[] InstaciaCarr;
-    public Transform PuntodeInstacia;
-    public Transform RepCentral;
-    public GameObject Selecion;
+    //camaras de repisas 
+    public GameObject Camara_SelecionINS;
+    public GameObject camara_seleccionREP;
+    //public Transform RepCentral;
+    public GameObject canvas_camara_principal;
+    public GameObject camara_principal;
+    public GameObject camara_grua;
+    public GameObject camara_pistas;
     [Range(0, 100)] public float movimientoCam;
     public bool verificacion;
-    public int x;
-    public int y;
-    public int z;
+
+    public SelecionCarro inactivar;
     public int aa;
+    public int menu_inicio;
+    public int priority;
+    public int y;
     void Start()
     {
-        
+        camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = priority+1;
     }
     void Update()
     {
 
-        
-        foreach (GameObject item in InfoCar)
+        if (aa==1539)
         {
+            canvas_camara_principal.SetActive(false);
+            Camara_SelecionINS.SetActive(true);
+            camara_seleccionREP.SetActive(true);
+            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
+            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            print("aaaa");
+            aa = 0;
+
+        }
+        else if (aa==1540)
+        {
+
+            canvas_camara_principal.SetActive(false);
+            camara_grua.SetActive(true);
+            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
+            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority =1;
+            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            aa = 0;
+        }
+        else if (aa==1541)
+        {
+            canvas_camara_principal.SetActive(false);
+            camara_pistas.SetActive(true);
+            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority =2000;
+            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            aa = 0;
+        }
+        else if (aa == 1542)
+        {
+            canvas_camara_principal.SetActive(true);
+            camara_grua.SetActive(false);
+            camara_pistas.SetActive(false);
+            camara_seleccionREP.SetActive(false);
+            Camara_SelecionINS.SetActive(false);
             InfoCar[y].SetActive(false);
-        }
-        foreach (GameObject item in InfoCar)
-        {
-            InfoCar[x].SetActive(true);
-        }
-        if (z!=0)
-        {
-            Instantiate(InstaciaCarr[z], PuntodeInstacia.position, Quaternion.identity);
-            if (aa==1538)
-            {
-                //this.transform.position = Vector3.Lerp(this.transform.position, posCm[5].position, 50 );
-                //this.transform.rotation = Quaternion.Lerp(this.transform.rotation, posCm[5].rotation, 50);
-                Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 99;
-                verificacion = true;
-                z = 0;
-            }
-
- 
-        }
-        else if (verificacion==false)
-        {
-            this.transform.position = Vector3.Lerp(this.transform.position, posCm[x].position, 2 * Time.deltaTime);
-            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, posCm[x].rotation, 2 * Time.deltaTime);
-            print("aa");
+            camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
+            camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            aa = 0;
         }
 
 
 
-    }
-    public void Destino(int c)
-    {
-        x = c;
-    }
-    public void Inactivar(int d)
-    {
-        y = d;
-    }
-    public void Instaciar(int B)
-    {
-        z = B;
         
     }
+
+
     public void Centrar(int a)
     {
         aa = a;
     }
-   
+    public void Volver(int a)
+    {
+        y= a;
+    }
 }
