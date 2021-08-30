@@ -37,20 +37,32 @@ public class SelecionCarro : MonoBehaviour
         if (z!=0)
         {
             Instantiate(InstaciaCarr[z], PuntodeInstacia.position, Quaternion.identity);
-            if (aa==1538)
+            if (aa == 1538)
             {
                 cam_repisas.SetActive(false);
+                cam_Selecion.SetActive(true);
                 InfoCar[y].SetActive(false);
-                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 1002;
+                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
+                cam_repisas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
                 verificacion = true;
+                z = 0;
+            }
+            else if (aa == 1537) 
+            {
+                cam_repisas.SetActive(true);
+                cam_Selecion.SetActive(false);
+                InfoCar[y].SetActive(true);
+                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+                cam_repisas.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
+                verificacion = false;
                 z = 0;
             }
 
         }
         else if (verificacion==false)
         {
-            this.transform.position = Vector3.Lerp(this.transform.position, posCm[x].position, 2 * Time.deltaTime);
-            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, posCm[x].rotation, 2 * Time.deltaTime);
+            cam_repisas.transform.position = Vector3.Lerp(cam_repisas.transform.position, posCm[x].position, 2 * Time.deltaTime);
+            cam_repisas.transform.rotation = Quaternion.Lerp(cam_repisas.transform.rotation, posCm[x].rotation, 2 * Time.deltaTime);
 
         }
         if (aa == 1542)

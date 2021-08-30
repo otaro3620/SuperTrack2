@@ -9,7 +9,7 @@ public class PostCam : MonoBehaviour
     //camaras de repisas 
     public GameObject Camara_SelecionINS;
     public GameObject camara_seleccionREP;
-    //public Transform RepCentral;
+    //menu principal
     public GameObject canvas_camara_principal;
     public GameObject camara_principal;
     public GameObject camara_grua;
@@ -17,7 +17,7 @@ public class PostCam : MonoBehaviour
     [Range(0, 100)] public float movimientoCam;
     public bool verificacion;
 
-    public SelecionCarro inactivar;
+  
     public int aa;
     public int menu_inicio;
     public int priority;
@@ -32,7 +32,7 @@ public class PostCam : MonoBehaviour
         if (aa==1539)
         {
             canvas_camara_principal.SetActive(false);
-            Camara_SelecionINS.SetActive(true);
+            Camara_SelecionINS.SetActive(false);
             camara_seleccionREP.SetActive(true);
             camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
             camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
