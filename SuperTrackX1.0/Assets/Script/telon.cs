@@ -12,7 +12,7 @@ public class telon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        miimagen.CrossFadeAlpha(0, 1f, false);
+        miimagen.CrossFadeAlpha(0, 5f, false);
     }
 
     // Update is called once per frame
