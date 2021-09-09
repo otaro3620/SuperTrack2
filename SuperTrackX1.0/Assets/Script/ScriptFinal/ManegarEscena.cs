@@ -1,33 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class telon : MonoBehaviour
+public class ManegarEscena : MonoBehaviour
 {
-    
     public string[] misescenas;
-    public Animator animacionBotones;
+
+    public Animator animatorMenu;
     public int activacion;
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine("Transicion");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (activacion==1)
+
+        if (activacion == 1)
         {
-            animacionBotones.SetInteger("Activacion", 1);
+            animatorMenu.SetInteger("Activacion", 1);
+        }
+        else if (activacion==2)
+        {
+            animatorMenu.SetInteger("Activacion", 2);
         }
     }
-    public void Telonar(int s)
+    public void CambioEscenas(int s)
     {
         StartCoroutine(Cambioescena(misescenas[s]));
     }
+    IEnumerator Transicion()
+    {
+        yield return new WaitForSecondsRealtime(1);
+        animatorMenu.SetInteger("Loading", 1);
+    }
+
     IEnumerator Cambioescena(string escena)
     {
         yield return new WaitForSeconds(2);

@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-    [Serializable]
+   /* [Serializable]
     public class AxleInfo {
     public WheelCollider leftWheel;
     public WheelCollider rightWheel;
@@ -10,11 +10,11 @@ using UnityEngine;
     public bool motor;
     public bool steering;
    
-}
+}*/
 
 public class carcontroler : MonoBehaviour
 {
-    public List<AxleInfo> axleInfos;
+    /*public List<AxleInfo> axleInfos;
     public float maxMotorTorque;
     public float maxSteeringAngle;
 
@@ -60,6 +60,6 @@ public class carcontroler : MonoBehaviour
             ApplyLocalPositionToVisuals(axleInfo.leftWheel);
             ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
-    }
+    }*/
 
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class player2 : MonoBehaviour
 {
-    public List<AxleInfo> axleInfos;
+    /*public List<AxleInfo> axleInfos;
     public float maxMotorTorque;
     public float maxSteeringAngle;
 
@@ -50,5 +50,5 @@ public class player2 : MonoBehaviour
             ApplyLocalPositionToVisuals(axleInfo.leftWheel);
             ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
-    }
+    }*/
 }

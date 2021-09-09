@@ -34,7 +34,7 @@ public class SelecionCarro : MonoBehaviour
         {
             InfoCar[x].SetActive(true);
         }
-        if (z!=0)
+        if (z != 0)
         {
             Instantiate(InstaciaCarr[z], PuntodeInstacia.position, Quaternion.identity);
             if (aa == 1538)
