@@ -7,12 +7,6 @@ public class CambiodeColor : MonoBehaviour
     public Texture[] texture;
     public Renderer render;
     public int z;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-        
-    }
 
     // Update is called once per frame
     void Update()
