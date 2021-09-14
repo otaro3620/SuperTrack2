@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 262.3369, g: 325.0498, b: 430.21924, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,10 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 97bf54526c4528f4e9269ad94a72a6f8,
-    type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: e7e6dcac4745cc743afd654d98c1f214,
-    type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 97bf54526c4528f4e9269ad94a72a6f8, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: e7e6dcac4745cc743afd654d98c1f214, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -7322,7 +7320,6 @@ MonoBehaviour:
   m_Script: {fileID: 1559803837}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries: []
 --- !u!4 &1367814663
 Transform:
   m_ObjectHideFlags: 19
@@ -8457,7 +8454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Profile: {fileID: 11400000, guid: b99d2b90edec1ad499c8b438e1b3fc86, type: 2}
+  m_Profile: {fileID: 0}
   m_StaticLightingSkyUniqueID: 1
 --- !u!4 &1685511008
 Transform:
@@ -23685,8 +23682,7 @@ AudioSource:
   m_GameObject: {fileID: 4068719923918568406}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300001, guid: 94c21ba215c28594a9b0fa5b9ab9c0db,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 24300001, guid: 94c21ba215c28594a9b0fa5b9ab9c0db, type: 2}
   m_audioClip: {fileID: 8300000, guid: a7763bd04aa8f404291c8bcb1cf328f9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0
@@ -23940,8 +23936,7 @@ AudioSource:
   m_GameObject: {fileID: 4068719924626547168}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300001, guid: 94c21ba215c28594a9b0fa5b9ab9c0db,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 24300001, guid: 94c21ba215c28594a9b0fa5b9ab9c0db, type: 2}
   m_audioClip: {fileID: 8300000, guid: e86212221b27f3440a17189edce1e9fd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0
@@ -24298,8 +24293,7 @@ MonoBehaviour:
     nitro: {fileID: 4068719923387218460}
     switchGear: {fileID: 4068719924600218763}
   carParticles:
-    brakeParticlePerfab: {fileID: 100000, guid: f51cfcbc21728ca4ab2f3a68fb71ea68,
-      type: 3}
+    brakeParticlePerfab: {fileID: 100000, guid: f51cfcbc21728ca4ab2f3a68fb71ea68, type: 3}
     shiftParticle1: {fileID: 2001168179902504303}
     shiftParticle2: {fileID: 2001168178843937136}
   carSetting:
