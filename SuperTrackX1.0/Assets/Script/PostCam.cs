@@ -7,7 +7,7 @@ public class PostCam : MonoBehaviour
 {
     //public GameObject[] InfoCar;
     //camaras de repisas 
-    public GameObject camara_SelecionINS;
+    //public GameObject camara_SelecionINS;
     public GameObject camara_seleccionREP;
     //menu principal
     public GameObject canvas_camara_principal;
@@ -29,12 +29,12 @@ public class PostCam : MonoBehaviour
     }
     void Update()
     {
-        if (aa==1539)
+        if (aa==1539)//Boton Repisas
         {
             camara_seleccionREP.SetActive(true);
             //infocar.InfoCar[0].SetActive(true);
             canvas_camara_principal.SetActive(false);
-            camara_SelecionINS.SetActive(false);
+            //camara_SelecionINS.SetActive(false);
             camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
             camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
             camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
@@ -42,7 +42,7 @@ public class PostCam : MonoBehaviour
             print("aaaa");
             aa = 0;
         }
-        else if (aa==1540)
+        else if (aa==1540)//Boton Grua
         {
             camara_grua.SetActive(true);
             canvas_camara_principal.SetActive(false);
@@ -50,9 +50,10 @@ public class PostCam : MonoBehaviour
             camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority =1;
             camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
             camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            print("aaaa");
             aa = 0;
         }
-        else if (aa==1541)
+        else if (aa==1541)//Boton Pistas
         {
             camara_pistas.SetActive(true);
             canvas_camara_principal.SetActive(false); 
@@ -60,6 +61,7 @@ public class PostCam : MonoBehaviour
             camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
             camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 1;
             camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            print("aaaa");
             aa = 0;
         }
         else if (aa == 1542)
@@ -68,12 +70,13 @@ public class PostCam : MonoBehaviour
             camara_grua.SetActive(false);
             camara_pistas.SetActive(false);
             camara_seleccionREP.SetActive(false);
-            camara_SelecionINS.SetActive(false);
+            //camara_SelecionINS.SetActive(false);
             infocar.InfoCar[y].SetActive(false);
             camara_principal.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
             camara_seleccionREP.GetComponent<CinemachineVirtualCamera>().Priority = 1;
             camara_grua.GetComponent<CinemachineVirtualCamera>().Priority = 1;
             camara_pistas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+            print("aaaa");
             aa = 0;
         }
     }

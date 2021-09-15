@@ -9,7 +9,7 @@ public class SelecionCarro : MonoBehaviour
     public GameObject[] InfoCar;
     public GameObject[] InstaciaCarr;
     public Transform PuntodeInstacia;
-    public GameObject cam_Selecion;
+    //public GameObject cam_Selecion;
     public GameObject cam_repisas;
 
     [Range(0, 100)] public float movimientoCam;
@@ -40,9 +40,9 @@ public class SelecionCarro : MonoBehaviour
             if (aa == 1538)
             {
                 cam_repisas.SetActive(false);
-                cam_Selecion.SetActive(true);
+                //cam_Selecion.SetActive(true);
                 InfoCar[y].SetActive(false);
-                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
+                //cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
                 cam_repisas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
                 verificacion = true;
                 z = 0;
@@ -50,9 +50,9 @@ public class SelecionCarro : MonoBehaviour
             else if (aa == 1537) 
             {
                 cam_repisas.SetActive(true);
-                cam_Selecion.SetActive(false);
+                //.SetActive(false);
                 InfoCar[y].SetActive(true);
-                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+                //cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 1;
                 cam_repisas.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
                 verificacion = false;
                 z = 0;
