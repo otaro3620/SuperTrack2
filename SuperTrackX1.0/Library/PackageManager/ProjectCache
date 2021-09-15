@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637672595780972540
-    m_Hash: 1590816373
+      ticks: 637672762340712895
+    m_Hash: 3863940962
   m_LockFileStatus:
     m_FilePath: C:/Users/gerga/Documents/GitHub/SuperTrack2/SuperTrackX1.0/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637672595781107566
-    m_Hash: 4173826470
+      ticks: 637672762340732881
+    m_Hash: 3270372164
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

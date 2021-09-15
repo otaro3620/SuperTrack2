@@ -15,11 +15,11 @@ C:/Users/gerga/Documents/GitHub/SuperTrack2/SuperTrackX1.0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60519
+57573
 Successfully changed project path to: C:/Users/gerga/Documents/GitHub/SuperTrack2/SuperTrackX1.0
 C:/Users/gerga/Documents/GitHub/SuperTrack2/SuperTrackX1.0
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 153.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 166.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002754 seconds.
+Registered in 0.002918 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 144.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 159.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.643 seconds
+- Completed reload, in  3.357 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009486 seconds.
+Registered in 0.009474 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 151.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 156.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.209 seconds
+- Completed reload, in  2.333 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4889 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 226.6 MB.
-System memory in use after: 226.8 MB.
+System memory in use after: 226.9 MB.
 
 Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 5309.
-Total: 8.342700 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.152700 ms MarkObjects: 7.498300 ms  DeleteObjects: 0.130500 ms)
+Total: 8.027700 ms (FindLiveObjects: 0.550100 ms CreateObjectMapping: 0.152900 ms MarkObjects: 7.206400 ms  DeleteObjects: 0.116400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,141 +81,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat
-  artifactKey: Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat using Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNaranja.mat
+  artifactKey: Guid(d31cd54c705c04c449d4aee79d8c4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNaranja.mat using Guid(d31cd54c705c04c449d4aee79d8c4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
- -> (artifact id: '28e6cec0e10bf5e55157ed96ecf5b2b9') in 1.639436 seconds 
-  Import took 1.650214 seconds .
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+ -> (artifact id: '2bb548817a9a1bab23940120add89ad6') in 1.869533 seconds 
+  Import took 1.880540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.042094 seconds.
-  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat
-  artifactKey: Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat using Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e6cec0e10bf5e55157ed96ecf5b2b9') in 0.054150 seconds 
-  Import took 0.063176 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009347 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.073 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4563 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.4 MB.
-System memory in use after: 218.9 MB.
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 5516.
-Total: 9.145000 ms (FindLiveObjects: 0.645800 ms CreateObjectMapping: 0.277100 ms MarkObjects: 8.166500 ms  DeleteObjects: 0.053800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1667.885344 seconds.
-  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat
-  artifactKey: Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat using Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c999d3bb03be4c94de48fbd1ec0033') in 0.627527 seconds 
-  Import took 0.637573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
+  Time since last request: 0.000223 seconds.
   path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/Pantalla.mat
   artifactKey: Guid(5c51a6450966d814eb1a727b0c133d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/Pantalla.mat using Guid(5c51a6450966d814eb1a727b0c133d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d87de709774aaddbf48206b9f58c10') in 0.045363 seconds 
-  Import took 0.054103 seconds .
+Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/Pantalla.mat using Guid(5c51a6450966d814eb1a727b0c133d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6223e09616233cfd8996d9d1551bafa8') in 0.046537 seconds 
+  Import took 0.055872 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008826 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.905 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 218.6 MB.
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/Palanca.mat
+  artifactKey: Guid(72a8279cca0a08041907edfcc426cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/Palanca.mat using Guid(72a8279cca0a08041907edfcc426cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa341268a2c4f4d18591a5aab6639b54') in 0.053949 seconds 
+  Import took 0.063741 seconds .
 
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 5654.
-Total: 8.478200 ms (FindLiveObjects: 0.658300 ms CreateObjectMapping: 0.193600 ms MarkObjects: 7.585900 ms  DeleteObjects: 0.038900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008718 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.831 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 218.7 MB.
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat
+  artifactKey: Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat using Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a18b0db27747c3dba750131609906eb') in 0.044829 seconds 
+  Import took 0.056455 seconds .
 
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 5657.
-Total: 9.350900 ms (FindLiveObjects: 0.618100 ms CreateObjectMapping: 0.167800 ms MarkObjects: 8.516100 ms  DeleteObjects: 0.047500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.003127 seconds.
+  path: Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat
+  artifactKey: Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/Escenario/Habitacion/MaterialesAdicionales/BotonesNegros.mat using Guid(727ec4ebd8708144e92cfbc34dd3b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a18b0db27747c3dba750131609906eb') in 0.044859 seconds 
+  Import took 0.053797 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
