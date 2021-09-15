@@ -9,7 +9,6 @@ public class SelecionCarro : MonoBehaviour
     public GameObject[] InfoCar;
     public GameObject[] InstaciaCarr;
     public Transform PuntodeInstacia;
-    public GameObject cam_Selecion;
     public GameObject cam_repisas;
 
     [Range(0, 100)] public float movimientoCam;
@@ -20,7 +19,7 @@ public class SelecionCarro : MonoBehaviour
     public int aa;
     void Start()
     {
-        
+        x = 25;
     }
     void Update()
     {
@@ -30,39 +29,23 @@ public class SelecionCarro : MonoBehaviour
         {
             InfoCar[y].SetActive(false);
         }
-        foreach (GameObject item in InfoCar)
+        if (x>=0&&x<=10)
         {
-            InfoCar[x].SetActive(true);
+            foreach (GameObject item in InfoCar)
+            {
+                InfoCar[x].SetActive(true);
+            }
+            cam_repisas.transform.position = Vector3.Lerp(cam_repisas.transform.position, posCm[x].position, 2 * Time.deltaTime);
+            cam_repisas.transform.rotation = Quaternion.Lerp(cam_repisas.transform.rotation, posCm[x].rotation, 2 * Time.deltaTime);
         }
+
         if (z != 0)
         {
             Instantiate(InstaciaCarr[z], PuntodeInstacia.position, Quaternion.identity);
-            if (aa == 1538)
-            {
-                cam_repisas.SetActive(false);
-                cam_Selecion.SetActive(true);
-                InfoCar[y].SetActive(false);
-                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
-                cam_repisas.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-                verificacion = true;
-                z = 0;
-            }
-            else if (aa == 1537) 
-            {
-                cam_repisas.SetActive(true);
-                cam_Selecion.SetActive(false);
-                InfoCar[y].SetActive(true);
-                cam_Selecion.GetComponent<CinemachineVirtualCamera>().Priority = 1;
-                cam_repisas.GetComponent<CinemachineVirtualCamera>().Priority = 2000;
-                verificacion = false;
-                z = 0;
-            }
-
         }
         else if (verificacion==false)
         {
-            cam_repisas.transform.position = Vector3.Lerp(cam_repisas.transform.position, posCm[x].position, 2 * Time.deltaTime);
-            cam_repisas.transform.rotation = Quaternion.Lerp(cam_repisas.transform.rotation, posCm[x].rotation, 2 * Time.deltaTime);
+
 
         }
         if (aa == 1542)
