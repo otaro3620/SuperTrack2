@@ -13,7 +13,7 @@ public class SeleccionPista : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        i = -1;
     }
 
     // Update is called once per frame
@@ -49,7 +49,7 @@ public class SeleccionPista : MonoBehaviour
             infoPista[2].SetActive(false);
             infoPista[3].SetActive(true);
         }
-        else if (i==4)
+        else if (i==5)
         {
             infoPista[0].SetActive(false);
             infoPista[1].SetActive(false);
