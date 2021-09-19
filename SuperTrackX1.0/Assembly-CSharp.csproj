@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\telon.cs" />
+    <Compile Include="Assets\Modelos\ScritableObjet\Mini.cs" />
     <Compile Include="Assets\Script\EfactoAutos.cs" />
     <Compile Include="Assets\Script\player2.cs" />
     <Compile Include="Assets\SeleccionPista.cs" />
@@ -68,6 +69,8 @@
     <Compile Include="Assets\Script\Car_Controller2.cs" />
     <Compile Include="Assets\SeleccionTaller.cs" />
     <Compile Include="Assets\CarAudio.cs" />
+    <Compile Include="Assets\Modelos\ScritableObjet\Intanciar.cs" />
+    <Compile Include="Assets\Modelos\ScritableObjet\InstanciCarro.cs" />
     <Compile Include="Assets\CarControler.cs" />
     <Compile Include="Assets\Script\Controladordecarro.cs" />
     <Compile Include="Assets\Script\Control_Car.cs" />
@@ -80,9 +83,8 @@
     <Compile Include="Assets\Script\ActivaInfo.cs" />
     <Compile Include="Assets\Script\ScriptFinal\ManegarEscena.cs" />
     <Compile Include="Assets\Script\ScriptFinal\PostCam.cs" />
-    <Compile Include="Assets\Modelos\ScritableObjet\Mini.cs" />
-    <Compile Include="Assets\Modelos\ScritableObjet\InstanciCarro.cs" />
-    <Compile Include="Assets\Modelos\ScritableObjet\Intanciar.cs" />
+    <Compile Include="Assets\Modelos\ScritableObjet\R5.cs" />
+    <Compile Include="Assets\AnimacionPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Vortex.shader" />
