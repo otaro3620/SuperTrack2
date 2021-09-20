@@ -14,7 +14,7 @@ public class Intanciar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        z = 25;
+        
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class Intanciar : MonoBehaviour
     {
         if (z>=0&&z<=10)
         {
-            if (z == 0)
+            if (selecionCarro.seleccion == 0)
             {
                 insCar[0].SetActive(true);
                 insCar[1].SetActive(false);
@@ -35,7 +35,7 @@ public class Intanciar : MonoBehaviour
                 insCar[8].SetActive(false);
                 insCar[9].SetActive(false);*/
             }
-            else if (z == 1)
+            else if (selecionCarro.seleccion == 1)
             {
                 insCar[0].SetActive(false);
                 insCar[1].SetActive(true);
@@ -49,14 +49,10 @@ public class Intanciar : MonoBehaviour
                 insCar[9].SetActive(false);*/
             }
         }
-      
-
-
-        selecionCarro.seleccion = z;
     }
     public void SelecionCar(int carro)
     {
-        z = carro;
+        selecionCarro.seleccion =  carro;
     }
     public void ApagarCarro(int apagado)
     {

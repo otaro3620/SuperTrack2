@@ -24,7 +24,7 @@ public class ManagerTutorial : MonoBehaviour
             menuTutorial.SetActive(false);
 
         }
-        else if (scripTutorial.q==1&&q==0)
+        else if (scripTutorial.q==1&&q==1)
         {
             tutorial[1].SetActive(true);
             tutorial[0].SetActive(false);
