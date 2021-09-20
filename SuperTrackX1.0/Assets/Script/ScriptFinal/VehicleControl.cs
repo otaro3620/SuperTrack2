@@ -518,8 +518,8 @@ public class VehicleControl : MonoBehaviour
 
                 if (carWheels.wheels.frontWheelDrive || carWheels.wheels.backWheelDrive)
                 {
-                    steer = Mathf.MoveTowards(steer, Input.GetAxis("Horizontalplayer1"), 0.2f);
-                    accel = Input.GetAxis("Verticalplayer1");
+                    steer = Mathf.MoveTowards(steer, Input.GetAxis("Horizontal"), 0.2f);
+                    accel = Input.GetAxis("Vertical");
                     brake = Input.GetButton("Jump");
                     shift = Input.GetKey(KeyCode.LeftShift) | Input.GetKey(KeyCode.RightShift);
 

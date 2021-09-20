@@ -23,10 +23,10 @@ public class ManegarEscena : MonoBehaviour
         {
             animatorMenu.SetInteger("Activacion", 1);
         }
-        else if (activacion==2)
+        /*else if (activacion==2)
         {
             animatorMenu.SetInteger("Activacion", 2);
-        }
+        }*/
     }
     public void CambioEscenas(int s)
     {
@@ -40,7 +40,9 @@ public class ManegarEscena : MonoBehaviour
 
     IEnumerator Cambioescena(string escena)
     {
+        animatorMenu.SetInteger("Loading", 1);
         yield return new WaitForSeconds(2);
+        animatorMenu.SetInteger("Activacion", 2);
         SceneManager.LoadScene(escena);
     }
     public void Activacion(int a)
