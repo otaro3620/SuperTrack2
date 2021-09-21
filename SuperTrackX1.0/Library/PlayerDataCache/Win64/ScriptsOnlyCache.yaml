@@ -88,11 +88,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -167,6 +164,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2208}
     - Class: 114
+      Script: {instanceID: 2550}
+    - Class: 114
       Script: {instanceID: 3256}
     - Class: 114
       Script: {instanceID: 3442}
@@ -179,19 +178,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6388}
+      Script: {instanceID: 6390}
     - Class: 114
-      Script: {instanceID: 7680}
+      Script: {instanceID: 7684}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 7744}
     - Class: 114
-      Script: {instanceID: 8218}
+      Script: {instanceID: 8222}
     - Class: 114
-      Script: {instanceID: 9336}
+      Script: {instanceID: 8306}
     - Class: 114
-      Script: {instanceID: 9776}
+      Script: {instanceID: 8650}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 9340}
+    - Class: 114
+      Script: {instanceID: 9780}
+    - Class: 114
+      Script: {instanceID: 9818}
+    - Class: 114
+      Script: {instanceID: 10178}
+    - Class: 114
+      Script: {instanceID: 10662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -290,53 +297,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5758}
     - Class: 114
-      Script: {instanceID: 6808}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 6828}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 6910}
-    - Class: 114
-      Script: {instanceID: 7186}
+      Script: {instanceID: 6912}
     - Class: 114
       Script: {instanceID: 7188}
     - Class: 114
-      Script: {instanceID: 7222}
+      Script: {instanceID: 7190}
     - Class: 114
-      Script: {instanceID: 7572}
+      Script: {instanceID: 7224}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 7576}
     - Class: 114
-      Script: {instanceID: 7946}
+      Script: {instanceID: 7744}
     - Class: 114
-      Script: {instanceID: 8056}
+      Script: {instanceID: 7950}
     - Class: 114
-      Script: {instanceID: 8066}
+      Script: {instanceID: 8060}
     - Class: 114
-      Script: {instanceID: 8238}
+      Script: {instanceID: 8070}
     - Class: 114
-      Script: {instanceID: 8290}
+      Script: {instanceID: 8242}
     - Class: 114
-      Script: {instanceID: 8346}
+      Script: {instanceID: 8294}
     - Class: 114
-      Script: {instanceID: 8442}
+      Script: {instanceID: 8350}
     - Class: 114
-      Script: {instanceID: 8456}
+      Script: {instanceID: 8446}
     - Class: 114
-      Script: {instanceID: 8596}
+      Script: {instanceID: 8460}
     - Class: 114
-      Script: {instanceID: 8780}
+      Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 8932}
+      Script: {instanceID: 8784}
     - Class: 114
-      Script: {instanceID: 8998}
+      Script: {instanceID: 8936}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 9002}
     - Class: 114
-      Script: {instanceID: 10294}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 10664}
+      Script: {instanceID: 10298}
     - Class: 114
-      Script: {instanceID: 10812}
+      Script: {instanceID: 10668}
+    - Class: 114
+      Script: {instanceID: 10816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -411,37 +418,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6388}
+      Script: {instanceID: 6352}
     - Class: 114
-      Script: {instanceID: 7154}
+      Script: {instanceID: 6390}
     - Class: 114
-      Script: {instanceID: 7680}
+      Script: {instanceID: 7156}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 7228}
     - Class: 114
-      Script: {instanceID: 7928}
+      Script: {instanceID: 7684}
     - Class: 114
-      Script: {instanceID: 8218}
+      Script: {instanceID: 7744}
     - Class: 114
-      Script: {instanceID: 8302}
+      Script: {instanceID: 7932}
     - Class: 114
-      Script: {instanceID: 8442}
+      Script: {instanceID: 8222}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 8306}
     - Class: 114
-      Script: {instanceID: 9336}
+      Script: {instanceID: 8446}
     - Class: 114
-      Script: {instanceID: 9814}
+      Script: {instanceID: 8650}
     - Class: 114
-      Script: {instanceID: 10658}
+      Script: {instanceID: 9340}
     - Class: 114
-      Script: {instanceID: 10812}
+      Script: {instanceID: 9818}
     - Class: 114
-      Script: {instanceID: 10904}
+      Script: {instanceID: 10662}
     - Class: 114
-      Script: {instanceID: 44806}
+      Script: {instanceID: 10816}
     - Class: 114
-      Script: {instanceID: 61954}
+      Script: {instanceID: 10908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1427,6 +1434,12 @@ ScriptsOnlyBuild:
     className: Exposure
   - hash:
       serializedVersion: 2
+      Hash: d49fc002cf304a4c477c374a958ad2a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ManagerTutorial
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1635,6 +1648,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 14db0d3b6a46f69ad8a8343a748aa5b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tutorial
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -2457,21 +2476,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXRaycastBinder
-  - hash:
-      serializedVersion: 2
-      Hash: d49fc002cf304a4c477c374a958ad2a9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ManagerTutorial
-  - hash:
-      serializedVersion: 2
-      Hash: 14db0d3b6a46f69ad8a8343a748aa5b8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tutorial
   platform: 19
   scenePathNames:
   - Assets/Scenes/escenas cargadas/ScenasCargadas/Inicio.unity
   - Assets/Scenes/escenas cargadas/ScenasCargadas/menu.unity
   - Assets/Scenes/escenas cargadas/ScenasCargadas/DragRaceIndi.unity
-  playerPath: D:/proyectos unity/Build de Proyectos/SuperTrack/SuperTrack1.1/SuperTrackX1.0.exe
+  playerPath: D:/proyectos unity/Build de Proyectos/SuperTrack/SuperTrack1.0/SuperTrackX1.0.exe
